@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.apply_box {
+  max-width: 1200px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 20px;
+}
+
+.title_small {
+  font-size: 20px;
+}
+
+.form_container {
+  margin-top: 20px;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline-color: green;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+button {
+  background-color: red;
+  border: transparent solid 2px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  border: 2px solid green;
+  color: black;
+  transition: 0.3s ease-out;
+}
+
+.textarea_control textarea {
+  width: 100%;
+}
